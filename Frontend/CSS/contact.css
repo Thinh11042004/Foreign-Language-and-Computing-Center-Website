@@ -1,0 +1,124 @@
+/* ==== Reset chung ==== */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f4f9fb;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+
+  /* ==== Contact Section ==== */
+  .contact-section {
+    background: #f4f9fb;
+    padding: 80px 20px;
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .contact-info {
+    flex: 1 1 400px;
+  }
+  
+  .contact-info h2 {
+    color: #0077b6;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .contact-form {
+    flex: 1 1 400px;
+    background: #d1cfcf;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .checkbox-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+
+  .checkbox-container input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #0077b6;
+  }
+  
+  .checkbox-group input {
+    margin-right: 10px;
+  }
+  
+  .btn-submit {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0096c7;
+  }
+
+  

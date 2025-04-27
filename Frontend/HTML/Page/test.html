@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  
+  <!-- Logo Web -->
+  <link rel="icon" href="../Picture/Logo_TTK_Foreign-Language-and-Computing_Center.png" type="image/png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="../../CSS/home.css">
+</head>
+
+<body>
+
+  <!-- Toggle Checkbox -->
+  <input type="checkbox" id="menu-toggle" hidden onchange="document.body.classList.toggle('menu-open', this.checked)">
+
+
+  <!-- Sidebar Menu từ phải trượt ra -->
+  <aside class="menu">
+    <div class="menu-header">
+      <h2>Menu</h2>
+    </div>
+    <div class="menu-content">
+        <div class="menu-top">
+            <a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a>
+            <a href="#"><i class="fa-solid fa-book"></i> Khóa học</a>
+            <a href="#"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+        </div>
+
+        <div class="menu-bottom">
+            <a href="#"><i class="fa-solid fa-user"></i> Người dùng</a>
+            <a href="#"><i class="fa-solid fa-circle-info"></i> Giúp đỡ</a>
+        </div>
+    </div>
+  </aside>
+    
+    <!-- Icon menu bên phải -->
+    <label for="menu-toggle" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+
+  
+  <!-- Main Page Content -->
+  <div class="page-content">
+    <header class="header">
+      <div class="header-container">
+        
+        <!-- Logo bên trái -->
+        <div class="logo-wrapper">
+            <img src="../Picture/Logo_TTK_Foreign-Language-and-Computing_Center.png" alt="TTK Logo" class="logo-img">
+        </div>
+
+        <!-- Navigation giữa -->
+        <nav class="nav-links">
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Về TTK <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Giới thiệu</a>
+                  <a href="#">Tầm nhìn - Sứ mệnh</a>
+                  <a href="#">Giá trị cốt lõi</a>
+                  <a href="#">Lịch sử hình thành</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Điểm khác biệt <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Phương pháp học độc quyền</a>
+                  <a href="#">Đội ngũ giảng viên</a>
+                  <a href="#">Môi trường học tập</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Sách giáo trình <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Giáo trình tiếng Anh</a>
+                  <a href="#">Giáo trình luyện thi IELTS</a>
+                  <a href="#">Giáo trình tin học</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Khóa học <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Tiếng Anh giao tiếp</a>
+                  <a href="#">Luyện thi IELTS</a>
+                  <a href="#">Tin học văn phòng</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Lịch khai giảng <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Lịch khai giảng Tiếng Anh</a>
+                  <a href="#">Lịch khai giảng Tin học</a>
+                  <a href="#">Lịch khai giảng IELTS</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Kiến thức <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Bí kíp học ngoại ngữ</a>
+                  <a href="#">Tài liệu tin học</a>
+                  <a href="#">Tin tức và sự kiện</a>
+                </div>
+              </div>              
+        </nav>
+      </div>
+    </header>
+   
+    <!-- Footer -->
+    <footer>
+      © 2025 TTK Foreign Language and Computing Center. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html> 

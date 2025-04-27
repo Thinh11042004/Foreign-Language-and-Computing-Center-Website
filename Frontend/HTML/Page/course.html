@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course</title>
+  
+  <!-- Logo Web -->
+  <link rel="icon" href="../Picture/Logo_TTK_Foreign-Language-and-Computing_Center.png" type="image/png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="../../CSS/home_header_footer.css">
+    <link rel="stylesheet" href="../../CSS/course.css">
+</head>
+
+<body>
+
+  <!-- Toggle Checkbox -->
+  <input type="checkbox" id="menu-toggle" hidden onchange="document.body.classList.toggle('menu-open', this.checked)">
+
+
+  <!-- Sidebar Menu từ phải trượt ra -->
+  <aside class="menu">
+    <div class="menu-header">
+      <h2>Menu</h2>
+    </div>
+    <div class="menu-content">
+        <div class="menu-top">
+            <a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a>
+            <a href="#"><i class="fa-solid fa-book"></i> Khóa học</a>
+            <a href="#"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+        </div>
+
+        <div class="menu-bottom">
+            <a href="#"><i class="fa-solid fa-user"></i> Người dùng</a>
+            <a href="#"><i class="fa-solid fa-circle-info"></i> Giúp đỡ</a>
+        </div>
+    </div>
+  </aside>
+    
+    <!-- Icon menu bên phải -->
+    <label for="menu-toggle" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+
+  
+  <!-- Main Page Content -->
+  <div class="page-content">
+    <header class="header">
+      <div class="header-container">
+        
+        <!-- Logo bên trái -->
+        <div class="logo-wrapper">
+            <img src="../Picture/Logo_TTK_Foreign-Language-and-Computing_Center.png" alt="TTK Logo" class="logo-img">
+        </div>
+
+        <!-- Navigation giữa -->
+        <nav class="nav-links">
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Về TTK <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Giới thiệu</a>
+                  <a href="#">Tầm nhìn - Sứ mệnh</a>
+                  <a href="#">Giá trị cốt lõi</a>
+                  <a href="#">Lịch sử hình thành</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Điểm khác biệt <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Phương pháp học độc quyền</a>
+                  <a href="#">Đội ngũ giảng viên</a>
+                  <a href="#">Môi trường học tập</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Sách giáo trình <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Giáo trình tiếng Anh</a>
+                  <a href="#">Giáo trình luyện thi IELTS</a>
+                  <a href="#">Giáo trình tin học</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Khóa học <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Tiếng Anh giao tiếp</a>
+                  <a href="#">Luyện thi IELTS</a>
+                  <a href="#">Tin học văn phòng</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Lịch khai giảng <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Lịch khai giảng Tiếng Anh</a>
+                  <a href="#">Lịch khai giảng Tin học</a>
+                  <a href="#">Lịch khai giảng IELTS</a>
+                </div>
+              </div>
+              
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link">Kiến thức <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                  <a href="#">Bí kíp học ngoại ngữ</a>
+                  <a href="#">Tài liệu tin học</a>
+                  <a href="#">Tin tức và sự kiện</a>
+                </div>
+              </div>              
+        </nav>
+      </div>
+    </header>
+
+
+  <!-- Hero Section -->
+  <section class="courses-hero">
+    <div class="courses-hero-content">
+      <h1>Khóa học Ngoại Ngữ & Tin học</h1>
+      <p>Phát triển kỹ năng toàn diện với chương trình đào tạo chất lượng quốc tế tại TTK Center.</p>
+      <button class="courses-btn">Đăng ký tư vấn</button>
+    </div>
+    <div class="courses-hero-image">
+      <img src="../Picture/hocvien.png" alt="Học viên TTK">
+    </div>
+  </section>
+  
+
+  <!-- Các phần khóa học như trước -->
+  <section class="course-category">
+    <div class="container">
+      <h2>Ngoại Ngữ</h2>
+  
+      <div class="category-grid">
+  
+        <!-- English -->
+        <div class="category-card">
+          <h3>Anh Ngữ</h3>
+          <ul>
+            <li>IELTS Academic & General</li>
+            <li>TOEFL iBT</li>
+            <li>TOEIC Listening & Reading</li>
+            <li>Cambridge English (PET, FCE, CAE)</li>
+          </ul>
+        </div>
+  
+        <!-- Korean -->
+        <div class="category-card">
+          <h3>Hàn Quốc</h3>
+          <ul>
+            <li>TOPIK I (Sơ cấp)</li>
+            <li>TOPIK II (Trung - Cao cấp)</li>
+            <li>Giao tiếp tiếng Hàn cơ bản</li>
+            <li>Tiếng Hàn thương mại</li>
+          </ul>
+        </div>
+  
+        <!-- Chinese -->
+        <div class="category-card">
+          <h3>Trung Quốc</h3>
+          <ul>
+            <li>HSK cấp 1-6</li>
+            <li>HSKK (Giao tiếp Trung Quốc)</li>
+            <li>Tiếng Trung thương mại</li>
+            <li>Giao tiếp thực tế</li>
+          </ul>
+        </div>
+  
+        <!-- German -->
+        <div class="category-card">
+          <h3>Đức</h3>
+          <ul>
+            <li>Goethe-Zertifikat A1-C1</li>
+            <li>Giao tiếp tiếng Đức cơ bản</li>
+            <li>Tiếng Đức du học</li>
+            <li>Ôn thi TestDaF</li>
+          </ul>
+        </div>
+  
+        <!-- Japanese -->
+        <div class="category-card">
+          <h3>Nhật Bản</h3>
+          <ul>
+            <li>JLPT N5 → N1</li>
+            <li>Tiếng Nhật giao tiếp sơ cấp</li>
+            <li>Tiếng Nhật thương mại</li>
+            <li>Luyện thi du học Nhật Bản (EJU)</li>
+          </ul>
+        </div>
+        
+        <!-- Russian -->
+          <div class="category-card">
+            <h3>Nga</h3>
+            <ul>
+              <li>TORFL cấp độ A1 → C2</li>
+              <li>Giao tiếp tiếng Nga cơ bản</li>
+              <li>Tiếng Nga thương mại</li>
+              <li>Luyện thi du học Nga</li>
+            </ul>
+          </div>
+  
+      </div>
+    </div>
+  </section>
+  <section class="course-category">
+    <div class="container">
+      <h2>Tin Học</h2>
+      <div class="category-grid">
+
+        <div class="category-card">
+          <h3>Ứng dụng Tin học Văn phòng</h3>
+          <ul>
+            <li>Word cơ bản và nâng cao</li>
+            <li>Excel cơ bản và nâng cao</li>
+            <li>PowerPoint chuyên nghiệp</li>
+            <li>Kỹ năng sử dụng Google Workspace</li>
+          </ul>
+        </div>
+    
+        <div class="category-card">
+          <h3>Chứng chỉ MOS quốc tế</h3>
+          <ul>
+            <li>MOS Word Specialist</li>
+            <li>MOS Excel Specialist</li>
+            <li>MOS PowerPoint Specialist</li>
+            <li>MOS Master Certification</li>
+          </ul>
+        </div>
+    
+        <div class="category-card">   
+            <h3>Chứng chỉ IC3 quốc tế</h3>
+            <ul>
+                <li>IC3 Digital Literacy Certification</li>
+                <li>IC3 GS5 Standard</li>
+                <li>Kỹ năng Công nghệ Thông tin căn bản</li>
+                <li>IC3 Living Online</li>
+            </ul>
+        </div>
+    
+        <div class="category-card">
+          <h3>Lập trình Cơ bản</h3>
+          <ul>
+            <li>Python for Beginners</li>
+            <li>JavaScript Web Development</li>
+            <li>HTML5 & CSS3 cơ bản</li>
+            <li>Nhập môn lập trình C++</li>
+          </ul>
+        </div>
+    
+        <div class="category-card">
+          <h3>Thiết kế Đồ họa</h3>
+          <ul>
+            <li>Photoshop cơ bản đến nâng cao</li>
+            <li>Illustrator dành cho người mới</li>
+            <li>Thiết kế UI/UX cơ bản</li>
+            <li>Canva & Figma Design</li>
+          </ul>
+        </div>
+
+        <div class="category-card">
+            <h3>Digital Marketing</h3>
+            <ul>
+              <li>Quảng cáo FaceBook</li>
+              <li>Quảng cáo Google</li>
+              <li>SEO Goggle</li>
+            </ul>
+          </div>
+    
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+          
+          <!-- Logo và thông tin bản quyền -->
+          <div class="footer-column logo-column">
+            <img src="../Picture/Logo_TTK_Foreign-Language-and-Computing_Center.png" alt="TTK Logo" class="footer-logo">
+            <p>© 2025 TTK Foreign Language and Computing Center</p>
+            <p>All rights reserved.</p>
+          </div>
+      
+          <!-- Thông tin liên hệ -->
+          <div class="footer-column">
+            <h3>Liên hệ</h3>
+            <p>TP HCM, Bình Dương, Đồng Nai</p>
+            <p>Email: <a href="mailto:TTKCenter@gmail.com">TTKCenter@gmail.com</a></p>
+            <p>Hotline: 0352 713 975 (Thịnh)</p>
+            <p>Hotline: 0987 665 301 (Tồn)</p>
+            <p>Hotline: 0786 437 145 (Khiêm)</p>
+          </div>
+      
+          <!-- Về TTK -->
+          <div class="footer-column">
+            <h3>TTK Center</h3>
+            <ul>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Khóa học</a></li>
+              <li><a href="#">Tin tức - Sự kiện</a></li>
+              <li><a href="#">Điều khoản</a></li>
+            </ul>
+          </div>
+      
+          <!-- Form đăng ký nhận tư vấn -->
+          <div class="footer-column">
+            <h3>Nhận tư vấn miễn phí</h3>
+            <p>Để lại Email, chúng tôi sẽ liên hệ tư vấn nhanh nhất!</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Nhập Email của bạn" required>
+              <button type="submit">Đăng ký</button>
+            </form>
+          </div>
+      
+        </div>
+      </footer>
+
+</body>
+</html>
